@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Button</title>
+  <script src="button.js"></script>
+</head>
+<body>
+  <button id="myButton" onclick="changeButtonColor()">Click Me!</button>
+</body>
+</html>

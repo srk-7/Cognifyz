@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Window Alert</title>
+	<script>
+        function show() {
+            var t = new Date();
+            var h = t.getHours();
+            var greeting;
+            if (h < 12) {
+                greeting = "Good morning!";
+            } else if (h < 18) {
+                greeting = "Good afternoon!";
+            } else {
+                greeting = "Good evening!";
+            }
+            alert("Hello! " + greeting);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="show()">Click To Get Alert Based on Time!!!</button>
+</body>
+</html>
